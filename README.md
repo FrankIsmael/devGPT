@@ -1,71 +1,34 @@
-# devgpt README
 
-This is the README for your extension "devgpt". After writing up a brief description, we recommend including the following sections.
+# My VS Code Extension for OpenAI API
 
-## Features
+## Introduction
+This extension allows developers to interact with the OpenAI API directly within VS Code. It provides a convenient interface for sending prompts to OpenAI and receiving responses.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Prerequisites
+- Visual Studio Code
+- Node.js (v14.0.0 or higher)
+- npm or yarn package manager
 
-For example if there is an image subfolder under your extension project workspace:
+## Creating Your First VS Code Extension
+1. **Install Yeoman and VS Code Extension Generator**: Run `npm install -g yo generator-code`.
+2. **Create a New Project**: Run `yo code` and follow the prompts to create your extension project.
+3. **Navigate to Project Directory**: Use `cd my-extension` to navigate into the project directory.
+4. **Install Dependencies**: Run `npm install` to install the required dependencies.
+5. **Open in VS Code**: Open the project in VS Code by running `code .`.
 
-\!\[feature X\]\(images/feature-x.png\)
+## Running the Extension Locally
+1. **Open the Project in VS Code**: If not already open, open the project in VS Code.
+2. **Press F5**: This starts the debugging session and opens a new VS Code window with the extension loaded.
+3. **Use the Extension**: Test your extension in the new window and use the debug tools as needed.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Connecting to OpenAI API
+- **Set Up API Keys**: Ensure that you have the necessary API keys and credentials for OpenAI.
+- **Configure Extension**: Add your API keys and any other configuration to the extension settings.
+- **Use the OpenAI Features**: Use the extension's OpenAI-related features as described in the documentation.
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+## Contribution and Support
+Feel free to contribute to this project or seek support by opening an issue on the GitHub repository.
 
 ---
 
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Happy coding with your new VS Code extension!

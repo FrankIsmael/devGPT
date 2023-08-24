@@ -58,7 +58,7 @@ export function activate(context: vscode.ExtensionContext) {
                   temperature: 0.6, 
                   frequency_penalty: 0.0,
                   presence_penalty: 0.5,
-                  model: 'gpt-3.5-turbo',
+                  model: 'gpt-4',
                 });
 
                 console.log('response', response);
